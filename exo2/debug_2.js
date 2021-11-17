@@ -1,12 +1,17 @@
 let main = document.getElementById('main');
-
 main.id = "main2";
+main.innerHTML = "Mon nouveau texte !";
 
-main.style.display = "hidden";
+if(html) {
+    console.log(html);
+}
+else {
+    let test = document.getElementParId('test');
+    if(test) {
+        alert(test);
+    }
+}
 
-main.innerHTLM = "Mon nouveau texte !";
-
-
-
+main.style.display = "block";
 
 
